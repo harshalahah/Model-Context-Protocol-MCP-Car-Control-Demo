@@ -3,6 +3,12 @@ A learning project exploring how to bridge AI with external systems.  Includes t
   1) A simple OpenAI API → UDP bridge
   2) A full MCP server tested with Claude Desktop.
 
+# What is MCP?
+
+Model Context Protocol (MCP) is a new open standard (created by Anthropic, late 2024) that allows AI models to connect to external tools and data sources in a structured way.
+Think of it like a USB port for AI assistants -- instead of custom code for every tool, MCP provides a standard interface.
+AI can then call functions like 'unlock car' or 'check database' safely and consistently.
+
 # 🚗 Model Context Protocol (MCP) Car Control Demo
 
 This project is a **learning showcase** of how to connect AI models to external systems using both a simple bridge and a real MCP server.  
