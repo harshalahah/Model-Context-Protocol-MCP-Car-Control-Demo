@@ -1,0 +1,24 @@
+{
+  "name": "Car Control Server",
+  "description": "MCP server to lock/unlock/start a simulated car",
+  "version": "1.0.0",
+  "type": "python",
+  "entry": "server.py",
+  "permissions": ["network"],
+  "capabilities": {
+    "commands": [
+      {
+        "name": "lock_car",
+        "description": "Locks the car"
+      },
+      {
+        "name": "unlock_car",
+        "description": "Unlocks the car"
+      },
+      {
+        "name": "start_car",
+        "description": "Starts the car"
+      }
+    ]
+  }
+}
