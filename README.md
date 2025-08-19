@@ -3,15 +3,12 @@ A learning project exploring how to bridge AI with external systems.  Includes t
   1) A simple OpenAI API → UDP bridge
   2) A full MCP server tested with Claude Desktop.
 
-````markdown
 # 🚗 Model Context Protocol (MCP) Car Control Demo
 
 This project is a **learning showcase** of how to connect AI models to external systems using both a simple bridge and a real MCP server.  
 The example: a *fake car* that can be locked or unlocked.
 
 We built it in **two stages**:
-
----
 
 ## 🔑 Version 1 — OpenAI API → UDP Bridge
 In this stage, we created:
@@ -62,15 +59,11 @@ This let us connect directly with **Claude Desktop (MCP-enabled)**, so the AI co
 2. The server sends UDP messages to the fake car.
 3. The car simulator responds back with success/failure.
 
----
-
 ## ⚠️ Notes
 
 * **API Keys:** If you experiment with OpenAI API, never hardcode your keys into code. Use environment variables.
 * This is **for learning/demo purposes only** (simulated car, not a real one).
 * MCP is a new standard — this project is meant as an introduction, not production code.
-
----
 
 ## 📚 What I Learned
 
@@ -79,14 +72,10 @@ This let us connect directly with **Claude Desktop (MCP-enabled)**, so the AI co
 * How **MCP servers integrate with AI tools**
 * Safe handling of **API keys and configs**
 
----
-
 ## 🚀 Next Steps
 
 * Expand to more car commands (start/stop, lights, etc.)
 * Try connecting other devices via MCP
 * Explore multi-client handling with threading
-
----
 
 ✨ *This repo is part of my learning journey with AI, networking, and the new MCP ecosystem.*
